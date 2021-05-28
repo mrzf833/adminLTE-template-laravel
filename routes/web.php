@@ -34,4 +34,8 @@ Route::get('forgot-password', function(){
 Route::get('recovery-password', function(){
     return view('extras.recovery-password');
 });
+
+Route::get('lockscreen', function(){
+    return view('extras.lockscreen');
+});
 // --------------------------------------------------------------------

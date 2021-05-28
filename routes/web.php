@@ -38,4 +38,8 @@ Route::get('recovery-password', function(){
 Route::get('lockscreen', function(){
     return view('extras.lockscreen');
 });
+
+Route::get('legacy-user-menu', function(){
+    return view('extras.legacy-user-menu');
+});
 // --------------------------------------------------------------------

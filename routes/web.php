@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+// --------------------------- route default template -----------------
+Route::get('login', function(){
+    return view('extras.login');
+});
+// --------------------------------------------------------------------

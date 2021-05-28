@@ -30,4 +30,8 @@ Route::get('register', function(){
 Route::get('forgot-password', function(){
     return view('extras.forgot-password');
 });
+
+Route::get('recovery-password', function(){
+    return view('extras.recovery-password');
+});
 // --------------------------------------------------------------------

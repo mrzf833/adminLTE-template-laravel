@@ -26,4 +26,8 @@ Route::get('login', function(){
 Route::get('register', function(){
     return view('extras.register');
 });
+
+Route::get('forgot-password', function(){
+    return view('extras.forgot-password');
+});
 // --------------------------------------------------------------------
